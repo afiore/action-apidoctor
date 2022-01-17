@@ -7,8 +7,6 @@ inputs:
   options:
     description: 'additional options to be passed to the lint subcommand'
     required: false
-    default: ''
-outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
