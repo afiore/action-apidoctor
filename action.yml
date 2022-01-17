@@ -1,0 +1,17 @@
+name: 'APIDoctor'
+description: 'Openapi spec linter'
+inputs:
+  spec:
+    description: 'path to the openapi spec file'
+    required: true
+  options:
+    description: 'additional options to be passed to the lint subcommand'
+    required: false
+    default: ''
+outputs:
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.spec }}
+    - ${{ inputs.options }}
