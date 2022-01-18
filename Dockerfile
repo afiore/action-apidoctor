@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM afiore/apidoctor:1683307128
 
 COPY entrypoint.sh /entrypoint.sh
 
