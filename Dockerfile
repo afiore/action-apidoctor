@@ -1,4 +1,4 @@
-FROM afiore/apidoctor:1683307128
+FROM afiore/apidoctor:1709783165
 
 COPY entrypoint.sh /entrypoint.sh
 

@@ -11,5 +11,5 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.spec }}
     - ${{ inputs.options }}
+    - ${{ inputs.spec }}
